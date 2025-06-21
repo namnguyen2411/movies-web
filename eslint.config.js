@@ -50,6 +50,8 @@ export default tseslint.config(
       'react/react-in-jsx-scope': 'off',
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+      'import/no-named-as-default': 'error',
+      'import/no-named-as-default-member': 'warn',
       'import/no-unresolved': 'error',
       'import/no-duplicates': 'error',
       'import/order': [
